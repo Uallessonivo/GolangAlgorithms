@@ -25,7 +25,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func middleNode(head *ListNode) *ListNode {
+func MiddleNode(head *ListNode) *ListNode {
 	slow := head
 	fast := head
 

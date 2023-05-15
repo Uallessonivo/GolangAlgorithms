@@ -45,7 +45,7 @@ func rotate(nums []int, k int) []int {
 	return nums
 }
 
-func rotate_solve() {
+func Rotate_solve() {
 	variable := []int{1, 2, 3, 4, 5, 6, 7}
 	solution := rotate(variable, 3)
 	fmt.Println("The the result is: ", solution)

@@ -50,7 +50,7 @@ func checkInclusion(s1 string, s2 string) bool {
 	return false
 }
 
-func checkInclusion_solve() {
+func CheckInclusion_solve() {
 	solution := checkInclusion("ab", "eidbaooo")
 	fmt.Println("The the result is: ", solution)
 }

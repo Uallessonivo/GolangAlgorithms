@@ -19,7 +19,7 @@ Input: head = [1,2], n = 1
 Output: [1]
 */
 
-func removeNthFromEnd(head *ListNode, n int) *ListNode {
+func RemoveNthFromEnd(head *ListNode, n int) *ListNode {
 	dummy := &ListNode{Val: 0}
 	dummy.Next = head
 

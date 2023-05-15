@@ -21,7 +21,7 @@ Input: nums = [1]
 Output: 1
 */
 
-func singleNumber(nums []int) int {
+func SingleNumber(nums []int) int {
 	result := 0
 
 	for _, num := range nums {

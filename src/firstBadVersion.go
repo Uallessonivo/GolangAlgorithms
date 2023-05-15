@@ -29,11 +29,7 @@ Output: 1
 */
 
 func isBadVersion(version int) bool {
-	if version < 3 {
-		return true
-	}
-
-	return false
+	return version < 3
 }
 
 func firstBadVersion(n int) int {
@@ -53,7 +49,7 @@ func firstBadVersion(n int) int {
 	return left
 }
 
-func firstBadVersion_solve() {
+func FirstBadVersion_solve() {
 	variable := 5
 	solution := firstBadVersion(variable)
 	fmt.Println("The the result is: ", solution)

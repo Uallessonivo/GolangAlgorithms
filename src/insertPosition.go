@@ -42,7 +42,7 @@ func insertPosition(nums []int, target int) int {
 	return left
 }
 
-func insertPosition_solve() {
+func InsertPosition_solve() {
 	variable := []int{1, 3, 5, 6}
 	solution := insertPosition(variable, 7)
 	fmt.Println("The the result is: ", solution)

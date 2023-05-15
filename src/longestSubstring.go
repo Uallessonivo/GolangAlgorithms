@@ -52,7 +52,7 @@ func lengthOfLongestSubstring(s string) int {
 	return longest
 }
 
-func lengthOfLongestSubstring_solve() {
+func LengthOfLongestSubstring_solve() {
 	variable := "abcabcbb"
 	solution := lengthOfLongestSubstring(variable)
 	fmt.Println("The the result is: ", solution)

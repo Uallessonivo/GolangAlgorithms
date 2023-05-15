@@ -32,7 +32,7 @@ func moveZeroes(nums []int) []int {
 	return nums
 }
 
-func moveZeroes_solve() {
+func MoveZeroes_solve() {
 	variable := []int{0, 1, 0, 3, 12}
 	solution := moveZeroes(variable)
 	fmt.Println("The the result is: ", solution)

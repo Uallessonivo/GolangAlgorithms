@@ -19,7 +19,7 @@ Output: -1
 Explanation: "leeto" did not occur in "leetcode", so we return -1.
 */
 
-func strStr(haystack string, needle string) int {
+func StrStr(haystack string, needle string) int {
 	// Declare m and n as variables, and initialize them with the length of needle and haystack respectively.
 	m := len(needle)
 	n := len(haystack)

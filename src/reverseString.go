@@ -31,7 +31,7 @@ func reverseString(s []byte) []byte {
 	return s
 }
 
-func reverseString_solve() {
+func ReverseString_solve() {
 	variable := []byte{'h', 'e', 'l', 'l', 'o'}
 	solution := reverseString(variable)
 	fmt.Println("The the result is: ", solution)

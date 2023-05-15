@@ -22,7 +22,7 @@ Input: s = "", t = "y"
 Output: "y"
 */
 
-func findTheDifference(s string, t string) byte {
+func FindTheDifference(s string, t string) byte {
 	result := byte(0)
 
 	for i := 0; i < len(s); i++ {

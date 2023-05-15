@@ -50,7 +50,7 @@ func twoSum(numbers []int, target int) []int {
 	return nil
 }
 
-func twoSum_solve() {
+func TwoSum_solve() {
 	variable := []int{2, 7, 11, 15}
 	solution := twoSum(variable, 9)
 	fmt.Println("The the result is: ", solution)

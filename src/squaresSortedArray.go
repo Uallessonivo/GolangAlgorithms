@@ -35,7 +35,7 @@ func sortedSquares(nums []int) []int {
 	return squares
 }
 
-func sortedSquares_solve() {
+func SortedSquares_solve() {
 	variable := []int{-4, -1, 0, 3, 10}
 	solution := sortedSquares(variable)
 	fmt.Println("The the result is: ", solution)

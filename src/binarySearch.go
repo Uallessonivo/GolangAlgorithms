@@ -42,7 +42,7 @@ func binarySearch(nums []int, target int) int {
 	return -1
 }
 
-func binarySearch_solve() {
+func BinarySearch_solve() {
 	variable := []int{-1, 0, 3, 5, 9, 12}
 	solution := binarySearch(variable, 9)
 	fmt.Println("The the result is: ", solution)

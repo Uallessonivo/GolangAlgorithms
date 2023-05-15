@@ -41,7 +41,7 @@ func reverseWords(s string) string {
 	return strings.Join(splitted, " ")
 }
 
-func rreverseWords_solve() {
+func ReverseWords_solve() {
 	variable := "Let's take LeetCode contest"
 	solution := reverseWords(variable)
 	fmt.Println("The the result is: ", solution)

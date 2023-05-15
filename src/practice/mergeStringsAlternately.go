@@ -37,7 +37,7 @@ word2:    p   q
 merged: a p b q c   d
 */
 
-func mergeAlternately(word1 string, word2 string) string {
+func MergeAlternately(word1 string, word2 string) string {
 	var result string
 
 	m := len(word1)
